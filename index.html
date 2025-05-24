@@ -42,6 +42,19 @@
                     lonfield: 'longitude', // replace with the actual column name for longitude in your CSV
                     delimiter: ','
                 }, function (err, geojson) {
+
+                    // Add these debug lines here:
+                    if (err) {
+                        console.error("Error converting CSV to GeoJSON:", err);
+                    } else {
+                        console.log("GeoJSON output:", geojson);
+                    }
+
+
+
+
+
+                    
                     map.on('load', function () {
                         map.addLayer({
                             id: 'points',
