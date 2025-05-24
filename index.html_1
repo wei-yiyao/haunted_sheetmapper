@@ -32,7 +32,7 @@
             $.ajax({
                 type: "GET",
                 //YOUR TURN: Replace with csv export link
-                url: 'https://docs.google.com/spreadsheets/d/1YVon670FdsuAhfvl2e47lvZGddRWPh71Wzg8YKupMFo/edit?gid=0#gid=0', // replace the text in single quotes with the link to your CSV file
+                url: 'https://docs.google.com/spreadsheets/d/1rPYpMp01hEPUJPfKH1nBWFjGcYNMeGraoVFKoOGtOGQ/edit?gid=404067873#gid=404067873', // replace the text in single quotes with the link to your CSV file
                 dataType: "text",
                 success: function (csvData) { makeGeoJSON(csvData); }
             });
