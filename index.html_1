@@ -48,8 +48,8 @@
                             type: 'circle',
                             source: { type: 'geojson', data: geojson },
                             paint: {
-                                'circle-radius': 6,
-                                'circle-color': 'purple'
+                                'circle-radius': 5,
+                                'circle-color': 'green'
                             }
                         });
                         // When a point is clicked, show a popup
