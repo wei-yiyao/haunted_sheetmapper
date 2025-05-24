@@ -32,7 +32,7 @@
             $.ajax({
                 type: "GET",
                 //YOUR TURN: Replace with csv export link
-                url: 'https://docs.google.com/spreadsheets/d/1rPYpMp01hEPUJPfKH1nBWFjGcYNMeGraoVFKoOGtOGQ/gviz/tq?tqx=out:csv&sheet=cal_haunted_places', // replace the text in single quotes with the link to your CSV file
+                url: 'https://docs.google.com/spreadsheets/d/1YVon670FdsuAhfvl2e47lvZGddRWPh71Wzg8YKupMFo/gviz/tq?tqx=out:csv&sheet=CA', // replace the text in single quotes with the link to your CSV file
                 dataType: "text",
                 success: function (csvData) { makeGeoJSON(csvData); }
             });
